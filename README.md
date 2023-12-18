@@ -1,7 +1,7 @@
 # dmarcAnalyzer
 Analysis of DMARC Reports
 
-This tools take received DMARD reports and analyze them all together in order to have a report showing up which countries, asn and servers try to send emails that belong to your domain.
+This tools takes received DMARC reports and analyze them all together in order to have a report showing up which countries, asn and servers try to send emails that belong to your domain.
 
 ## Requirements
 * Python

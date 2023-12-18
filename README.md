@@ -1,6 +1,8 @@
 # dmarcAnalyzer
 Analysis of DMARC Reports
 
+This tools take received DMARD reports and analyze them all together in order to have a report showing up which countries, asn and servers try to send emails that belong to your domain.
+
 ## Requirements
 * Python
 * Python packages: pandas, geoip
@@ -19,3 +21,6 @@ Analysis of DMARC Reports
 
 ## Usage
 * run script like: python3 dmarcGrouper.py
+* Scripts:
+	* dmarcAnalyzer.py: reads a bunch of xml DMARC Reports and exports the extracted data into a human readable csv format
+   	* dmarcGrouper.py: additionally to the Analyzer it merges the data and groups it to asns

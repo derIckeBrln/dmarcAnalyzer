@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 DMARC Analyzer
 reads a bunch of xml DMARC Reports and exports the extracted data into a human readable csv format
